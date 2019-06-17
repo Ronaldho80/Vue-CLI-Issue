@@ -1,0 +1,76 @@
+{
+  "name": "ltx-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/cli": "^3.8.4",
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "global": "^4.3.2",
+    "js-object-pretty-print": "^0.3.0",
+    "material-components-web": "^0.35.0",
+    "punycode": "^2.1.1",
+    "serve": "^11.0.0",
+    "sha1": "^1.1.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.5.17",
+    "vue-affix": "^0.5.2",
+    "vue-google-charts": "^0.3.2",
+    "vue-router": "^3.0.1",
+    "vue2-ace-editor": "^0.0.11",
+    "vuebar": "^0.0.20",
+    "vuejs-logger": "^1.5.3",
+    "vuetify": "^1.5.0",
+    "vuetify-upload-button": "^1.2.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.6.0",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.5.7",
+    "css-loader": "^1.0.0",
+    "material-design-icons-iconfont": "^5.0.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.23.0",
+    "symbol": "^0.3.1",
+    "vue-cli-plugin-material": "^0.2.3",
+    "vue-cli-plugin-vuetify": "^0.2.0",
+    "vue-clip": "^1.0.0",
+    "vue-codemirror": "^4.0.5",
+    "vue-template-compiler": "^2.5.17",
+    "vue-transmit": "^8.1.4"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
